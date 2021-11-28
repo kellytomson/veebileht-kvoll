@@ -1,0 +1,81 @@
+* {box-sizing: border-box}
+
+.video {
+    position: relative;
+    margin: auto;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.kast {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+
+.esitlus {
+    display: none;
+}
+
+.eelmine, .järgmine {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    user-select: none;
+}
+
+.järgmine {
+    right: 0;
+}
+
+.eelmine:hover, .järgmine:hover {
+    background-color: rgba(87, 87, 87, 0.877);
+    opacity: 95%;
+}
+
+.kirjeldus {
+    padding: 18px 12px;
+    background-color: rgba(87, 87, 87, 0.877);
+    opacity: 95%;
+    font-size: 15px;
+    bottom: 4px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+}
+
+.number {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.täpp {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(170, 170, 170);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: tomato;
+}
+
+
+
+
