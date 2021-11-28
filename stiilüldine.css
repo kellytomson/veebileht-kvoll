@@ -1,0 +1,41 @@
+
+body {
+    background-image: url("pildid/taust.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.koguleht {
+    background-color: rgba(116, 116, 116, 0.733);
+    opacity: 95%;
+}
+div.menüü{
+    position: relative;
+    margin:auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(83, 83, 83);
+    text-align: center;
+}
+li {
+    float:left;
+    padding: 0px 20px 0px;
+}
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(121, 121, 121);
+}
