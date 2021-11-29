@@ -1,11 +1,17 @@
 
+h1 {
+    color: rgb(255, 255, 255);
+}
+
 body {
-    background-image: url("pildid/taust.jpg");
+    background-image: url("https://images.unsplash.com/photo-1563365488-1e365499ba88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 10%;
     margin-left: 10%;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: larger;
     
 }
 
