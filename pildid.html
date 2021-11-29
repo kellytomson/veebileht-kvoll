@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Pildid </title>
+    <link rel="stylesheet" href="stiil.css">
+    <link rel="stylesheet" href="stiilüldine.css">
+</head>
+
+<body>
+    <div class="koguleht">
+        <div class="menüü">
+            <ul>
+                <li><a href="avaleht.html">Avaleht</a></li>
+                <li><a href="välimus.html">Välimus</a></li>
+                <li><a href="toitumine.html">Toitumine</a></li>
+                <li><a href="ohudjakaits.html">Ohud ja kaitsemeetmed</a></li>
+                <li><a href="pildid.html">Pildid</a></li>
+            </ul>
+        </div>
+
+        <h1>Mõned pildid</h1>
+        <p>Siin pildi servades olevatele noolekestele vajutades näed kõiki kvolli liike ja all pool on ka video.</p>
+        
+
+        <div class="kast">
+            <div class="esitlus">
+                <div class="number">1/5</div>
+                <img src="pildid/idakvoll.jpg" alt="Ida Kvoll" style="width:100%; height: 600px;"  >
+                <div class="kirjeldus">Ida-kvoll</div>
+            </div>
+
+            <div class="esitlus">
+                <div class="number">2/5</div>
+                <img src="pildid/läänekvoll.jpg" alt="Lääne Kvoll" style="width:100%; height: 600px;" >
+                <div class="kirjeldus">Lääne-kvoll</div>
+            </div>
+
+            <div class="esitlus">
+                <div class="number">3/5</div>
+                <img src="pildid/põhjakvoll.jpg" alt="Põhja Kvoll" style="width:100%; height: 600px;">
+                <div class="kirjeldus">Põhja-kvoll</div>
+            </div>
+
+            <div class="esitlus">
+                <div class="number">4/5</div>
+                <img src="pildid/tiigerkvoll.jpg" alt="Tiiger Kvoll" style="width:100%; height: 600px;">
+                <div class="kirjeldus">Tiiger-kvoll</div>
+            </div>
+
+            <div class="esitlus">
+                <div class="number">5/5</div>
+                <img src="pildid/uusguineakvoll.jpg" alt="Uus-Guinea Kvoll" style="width:100%; height: 600px;">
+                <div class="kirjeldus">Uus-Guinea-kvoll</div>
+            </div>
+
+            <a class="eelmine" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="järgmine" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="täpp" onclick="praeguneslaid(1)"></span>
+            <span class="täpp" onclick="praeguneslaid(2)"></span>
+            <span class="täpp" onclick="praeguneslaid(3)"></span>
+            <span class="täpp" onclick="praeguneslaid(4)"></span>
+            <span class="täpp" onclick="praeguneslaid(5)"></span>
+
+        </div>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YWQp0x-lEgQ" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+
+        <script src="skript.js"></script>
+    </div>
+</body>
+</html>
